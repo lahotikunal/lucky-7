@@ -3,7 +3,7 @@ var diceValue1,
 var diceValue,
     potValue,
     radioValue = '=7',
-    bidValue = 5;
+    bidValue = 15;
 
 function myRadioValue(dice) {
     radioValue = dice;
@@ -97,13 +97,39 @@ function myFunction()
 
 //rules
 rules.addEventListener('click', function() {
-  document.getElementById('text-area').innerHTML = "Put the bid, and"+"<br>"+"select one of"+"<br>"+"<7 , =7 or >7 and,"+"<br>"+"roll the dice."+"<br>"+"Have Fun!";
+  document.getElementById('text-area').innerHTML = "Put the bid the value of bid is fixed 15, and initial sum of 90 is given , select one of <7 , =7 or >7 and, roll the dice.If you select one of <7 and the sum of dice more than 7 ,  else if you choice option more than >7 and the sum of dice is more than 7 the initial value is  "+"<br>"+"added with twice the bidding value but the the choice is not same as the dice sum the bidding value is removed from the initial sum.The other choice is to select 7 and sum of dice is  7 you get 3 times the bidding value. If you select 7 and the value is anything other than 7 the bidding value is removed from the initial sum. "+"<br>"+" You have a option to choose  insurance at any time during game except at the start of the game when your sum is 90 or at the end when your sum is 0. If you choose to select insurance your loss "+"<br>"+"<br>"+"will be compensated(no money will removed in case of "+"<br>"+"loss) but a insurance premium will be removed from "+"<br>"+"your total amount at each roll , but if you win you "+"<br>"+"get the winning amount minus the premium amount "+"<br>"+"added to total sum.You can take insurance by pressing the  "+"<br>"+"Insurance button "+"<br>"+"Have Fun!";
   document.getElementById('rules').style.display = 'none';
 
 });
 //rules
 
-button.addEventListener('click',function()
+i15.onclick = function () {
+        if(potValue==15){location.href = "https://codepen.io/kunal28/pen/pobjEoX";}
+
+  /*i30.onclick = function () {*/
+        if(potValue==30)
+    {location.href = "https://codepen.io/kunal28/pen/jOrbMER";}
+  
+  if(potValue==45){location.href = "https://codepen.io/kunal28/pen/dyXYpYz";}
+  
+  if(potValue==60){location.href = "https://codepen.io/kunal28/pen/NWrGRxo";}
+  
+  if(potValue==75){location.href = "https://codepen.io/kunal28/pen/wvWKzGR";}
+
+}
+    
+    /*
+
+i45.onclick = function () {
+  if(bidValue==45){location.href = "https://codepen.io/kunal28/pen/dyXYpYz";}};
+i60.onclick = function () {
+        if(bidValue==60){location.href = "https://codepen.io/kunal28/pen/NWrGRxo";}};
+i75.onclick = function () {
+  if(bidValue==75){location.href = "https://codepen.io/kunal28/pen/wvWKzGR";}};
+        
+    */
+
+button1.addEventListener('click',function()
  {
      diceValue1 = Math.floor(Math.random()*6)+1;
      diceValue2 = Math.floor(Math.random()*6)+1;
@@ -145,9 +171,29 @@ button.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
+  if(potValue<=-45){
+    
+      pass=prompt('Do you need insurance y/n ');
+      if(pass=='y'){
+    
+              if (window.confirm('If you click "ok" you would be redirected  ')) 
+                    {
+                                      window.location.href='https://codepen.io/kunal28/pen/NWNZQba';
+                    }
+      }
+      else  {
+              if (window.confirm('If you click "ok" you would be redirected  ')) 
+                    {
+                    window.location.href='https://codepen.io/kunal28/pen/bGpPXBr';
+                    };
+        
+            }
+          //}
+    
+  }
+  
   document.getElementById("pot").innerHTML = potValue;
      
 });
-
 
 
