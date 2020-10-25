@@ -104,17 +104,17 @@ rules.addEventListener('click', function() {
 //rules
 
 i15.onclick = function () {
-        if(potValue==15){location.href = "https://codepen.io/kunal28/pen/pobjEoX";}
+        if(potValue==15){location.href = "https://lahotikunal.github.io/insurance15/";}
 
   /*i30.onclick = function () {*/
         if(potValue==30)
-    {location.href = "https://codepen.io/kunal28/pen/jOrbMER";}
+    {location.href = "https://lahotikunal.github.io/with30/";}
   
-  if(potValue==45){location.href = "https://codepen.io/kunal28/pen/dyXYpYz";}
+  if(potValue==45){location.href = "https://lahotikunal.github.io/with-insurance-45/";}
   
-  if(potValue==60){location.href = "https://codepen.io/kunal28/pen/NWrGRxo";}
+  if(potValue==60){location.href = "https://lahotikunal.github.io/with60/";}
   
-  if(potValue==75){location.href = "https://codepen.io/kunal28/pen/wvWKzGR";}
+  if(potValue==75){location.href = "https://lahotikunal.github.io/with75/";}
 
 }
     
