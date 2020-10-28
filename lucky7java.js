@@ -171,7 +171,7 @@ button1.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
-  if(potValue<=-45){
+  if(potValue<=-1111145){
     
       pass=prompt('Do you need insurance y/n ');
       if(pass=='y'){
