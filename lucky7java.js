@@ -95,17 +95,22 @@ rules.addEventListener('click', function() {
 //rules
 
 i15.onclick = function () {
-        if(potValue==15){location.href = "https://lahotikunal.github.io/insurance15/";}
+        if(potValue==15){location.href = "https://lahotikunal.github.io/insurance15/";
+                         alert("insurance option invoked !!");}
 
   /*i30.onclick = function () {*/
         if(potValue==30)
-    {location.href = "https://lahotikunal.github.io/with30/";}
+    {location.href = "https://lahotikunal.github.io/with30/";
+     alert("insurance option invoked !!");}
   
-  if(potValue==45){location.href = "https://lahotikunal.github.io/with-insurance-45/";}
+  if(potValue==45){location.href = "https://lahotikunal.github.io/with-insurance-45/";
+                   alert("insurance option invoked !!");}
   
-  if(potValue==60){location.href = "https://lahotikunal.github.io/with60/";}
+  if(potValue==60){location.href = "https://lahotikunal.github.io/with60/";
+                   alert("insurance option invoked !!");}
   
-  if(potValue==75){location.href = "https://lahotikunal.github.io/with75/";}
+  if(potValue==75){location.href = "https://lahotikunal.github.io/with75/";
+                   alert("insurance option invoked !!");}
     
   if(potValue==90){
     alert("insurance option invoked !!");
