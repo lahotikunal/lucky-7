@@ -106,6 +106,105 @@ i15.onclick = function () {
   if(potValue==60){location.href = "https://lahotikunal.github.io/with60/";}
   
   if(potValue==75){location.href = "https://lahotikunal.github.io/with75/";}
+    
+  if(potValue==90){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==105){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==120){
+    alert("insurance option invoked !!");
+    }
+  if(potValue==135){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==150){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==165){
+    alert("insurance option invoked !!");
+    }
+   if(potValue==180){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==195){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==210){
+    alert("insurance option invoked !!");
+    }
+    if(potValue==225){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==240){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==255){
+    alert("insurance option invoked !!");
+    }
+    
+    if(potValue==270){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==285){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==300){
+    alert("insurance option invoked !!");
+    }
+    if(potValue==300+15){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==300+30){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==300+45){
+    alert("insurance option invoked !!");
+    }
+    if(potValue==300+60){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==300+75){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==300+90){
+    alert("insurance option invoked !!");
+    }
+    if(potValue==300+105){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==300+120){
+    alert("insurance option invoked !!");
+    }
+  
+  if(potValue==300135){
+    alert("insurance option invoked !!");
+    }
+    if(potValue==300+150){
+    alert("insurance option invoked !!");
+  }
+  
+  if(potValue==300+165){
+    alert("game over you won !!");
+    }
+  
+  
 
 }
     
