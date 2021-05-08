@@ -266,26 +266,8 @@ button1.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
-  if(potValue<=-11111450000){
-    
-      pass=prompt('Do you need insurance y/n ');
-      if(pass=='y'){
-    
-              if (window.confirm('If you click "ok" you would be redirected  ')) 
-                    {
-                                      window.location.href='https://codepen.io/kunal28/pen/NWNZQba';
-                    }
-      }
-      else  {
-              if (window.confirm('If you click "ok" you would be redirected  ')) 
-                    {
-                    window.location.href='https://codepen.io/kunal28/pen/bGpPXBr';
-                    };
-        
-            }
-          //}
-    
-  }
+  if(potValue<0)
+  {alert("game over!!! not enough credit left,you have insurnce of 45 units , please press Next game button");}
   
   document.getElementById("pot").innerHTML = potValue;
      
