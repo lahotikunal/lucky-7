@@ -3,7 +3,7 @@ var diceValue1,
 var diceValue,
     potValue,
     radioValue = '=7',
-    bidValue = 30;
+    bidValue = 3000000;
 
 function myRadioValue(dice) {
     radioValue = dice;
@@ -95,117 +95,117 @@ rules.addEventListener('click', function() {
 //rules
 
 i15.onclick = function () {
-        if(potValue==15){location.href = "https://lahotikunal.github.io/insurance15/";
+        if(potValue==1500000){location.href = "https://lahotikunal.github.io/insurance15/";
                          alert("insurance option invoked !!");}
 
   /*i30.onclick = function () {*/
-        if(potValue==30)
+        if(potValue==3000000)
     {location.href = "https://lahotikunal.github.io/with30/";
      alert("insurance option invoked !!");}
   
-  if(potValue==45){location.href = "https://lahotikunal.github.io/with-insurance-45/";
+  if(potValue==4500000){location.href = "https://lahotikunal.github.io/with-insurance-45/";
                    alert("insurance option invoked !!");}
   
-  if(potValue==60){location.href = "https://lahotikunal.github.io/with60/";
+  if(potValue==6000000){location.href = "https://lahotikunal.github.io/with60/";
                    alert("insurance option invoked !!");}
   
-  if(potValue==75){location.href = "https://lahotikunal.github.io/with75/";
+  if(potValue==7500000){location.href = "https://lahotikunal.github.io/with75/";
                    alert("insurance option invoked !!");}
     
-  if(potValue==90){
+  if(potValue==9000000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==105){
+  if(potValue==10500000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==120){
+  if(potValue==12000000){
     alert("insurance option invoked !!");
     }
-  if(potValue==135){
+  if(potValue==13500000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==150){
+  if(potValue==15000000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==165){
+  if(potValue==16500000){
     alert("insurance option invoked !!");
     }
-   if(potValue==180){
+   if(potValue==18000000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==195){
+  if(potValue==19500000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==210){
+  if(potValue==21000000){
     alert("insurance option invoked !!");
     }
-    if(potValue==225){
+    if(potValue==22500000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==240){
+  if(potValue==24000000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==255){
+  if(potValue==25500000){
     alert("insurance option invoked !!");
     }
     
-    if(potValue==270){
+    if(potValue==27000000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==285){
+  if(potValue==28500000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==300){
+  if(potValue==30000000){
     alert("insurance option invoked !!");
     }
-    if(potValue==300+15){
+    if(potValue==300+1500000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==300+30){
+  if(potValue==30000000+3000000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==300+45){
+  if(potValue==30000000+4500000){
     alert("insurance option invoked !!");
     }
-    if(potValue==300+60){
+    if(potValue==30000000+6000000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==300+75){
+  if(potValue==30000000+7500000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==300+90){
+  if(potValue==30000000+9000000){
     alert("insurance option invoked !!");
     }
-    if(potValue==300+105){
+    if(potValue==30000000+10500000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==300+120){
+  if(potValue==30000000+12000000){
     alert("insurance option invoked !!");
     }
   
-  if(potValue==300135){
+  if(potValue==30000000+13500000){
     alert("insurance option invoked !!");
     }
-    if(potValue==300+150){
+    if(potValue==30000000+15000000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==300+165){
+  if(potValue==30000000+16500000){
     alert("game over you won !!");
     }
   
@@ -266,7 +266,7 @@ button1.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
-  if(potValue<=-1111145){
+  if(potValue<=-11111450000){
     
       pass=prompt('Do you need insurance y/n ');
       if(pass=='y'){
