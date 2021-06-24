@@ -3,7 +3,7 @@ var diceValue1,
 var diceValue,
     potValue,
     radioValue = '=7',
-    bidValue = 3000000;
+    bidValue = 1500000;
 
 function myRadioValue(dice) {
     radioValue = dice;
