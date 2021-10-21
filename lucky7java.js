@@ -3,7 +3,8 @@ var diceValue1,
 var diceValue,
     potValue,
     radioValue = '=7',
-    bidValue = 1500000;
+    bidValue = 1500000,
+    count=0;
 
 function myRadioValue(dice) {
     radioValue = dice;
@@ -95,24 +96,27 @@ rules.addEventListener('click', function() {
 //rules
 
 i15.onclick = function () {
-        if(potValue==1500000){location.href = "https://lahotikunal.github.io/insurance15/";
+        {location.href = "https://lahotikunal.github.io/thank-you/";
+          alert("game over!!! ");}
+        if(potValue==1500000){location.href = "https://lahotikunal.github.io/thank-you/";
                          alert("insurance option invoked !!");}
 
   /*i30.onclick = function () {*/
         if(potValue==3000000)
-    {location.href = "https://lahotikunal.github.io/with30/";
-     alert("insurance option invoked !!");}
+    {location.href = "https://lahotikunal.github.io/thank-you/";
+     alert("insurance option invoked,game over !!");}
   
-  if(potValue==4500000){location.href = "https://lahotikunal.github.io/with-insurance-45/";
-                   alert("insurance option invoked !!");}
+  if(potValue==4500000){location.href = "https://lahotikunal.github.io/thank-you/";
+                   alert("insurance option invoked,game over !!");}
   
-  if(potValue==6000000){location.href = "https://lahotikunal.github.io/with60/";
-                   alert("insurance option invoked !!");}
+  if(potValue==6000000){location.href = "https://lahotikunal.github.io/thank-you/";
+                   alert("insurance option invoked,game over  !!");}
   
-  if(potValue==7500000){location.href = "https://lahotikunal.github.io/with75/";
+  if(potValue==7500000){location.href = "https://lahotikunal.github.io/thank-you/";
                    alert("insurance option invoked !!");}
     
   if(potValue==9000000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
   }
   
@@ -132,80 +136,94 @@ i15.onclick = function () {
     }
   
   if(potValue==16500000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
    if(potValue==18000000){
+     location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
   }
   
   if(potValue==19500000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
   
   if(potValue==21000000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
     if(potValue==22500000){
+      location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
   }
   
   if(potValue==24000000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
   
   if(potValue==25500000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
     
     if(potValue==27000000){
+      location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
   }
   
   if(potValue==28500000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
   
   if(potValue==30000000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
     if(potValue==300+1500000){
+      location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
   }
   
   if(potValue==30000000+3000000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
   
-  if(potValue==30000000+4500000){
+  if(potValue==30000000+4500000){location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
     if(potValue==30000000+6000000){
     alert("insurance option invoked !!");
   }
   
-  if(potValue==30000000+7500000){
+  if(potValue==30000000+7500000){location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
   
-  if(potValue==30000000+9000000){
+  if(potValue==30000000+9000000){location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
-    if(potValue==30000000+10500000){
+    if(potValue==30000000+10500000){location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
   }
   
   if(potValue==30000000+12000000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
   
-  if(potValue==30000000+13500000){
+  if(potValue==30000000+13500000){location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
     }
-    if(potValue==30000000+15000000){
+    if(potValue==30000000+15000000){location.href = "https://lahotikunal.github.io/thank-you/";
     alert("insurance option invoked !!");
   }
   
   if(potValue==30000000+16500000){
+    location.href = "https://lahotikunal.github.io/thank-you/";
     alert("game over you won !!");
     }
   
@@ -214,7 +232,6 @@ i15.onclick = function () {
 }
     
     /*
-
 i45.onclick = function () {
   if(bidValue==45){location.href = "https://codepen.io/kunal28/pen/dyXYpYz";}};
 i60.onclick = function () {
@@ -225,7 +242,7 @@ i75.onclick = function () {
     */
 
 button1.addEventListener('click',function()
- {
+ {   count=count+1;
      diceValue1 = Math.floor(Math.random()*6)+1;
      diceValue2 = Math.floor(Math.random()*6)+1;
      myFunction('a','b','c','d','e','f','g','h','i',diceValue1);
@@ -266,11 +283,10 @@ button1.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
-  if(potValue<0)
-  {alert("game over!!! not enough credit left, please press Next game button");}
+  if(count===7)
+  {location.href = "https://lahotikunal.github.io/thank-you/";
+    alert("game over!!! ");}
   
   document.getElementById("pot").innerHTML = potValue;
      
 });
-
-
